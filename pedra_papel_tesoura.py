@@ -2,14 +2,13 @@
 
 import random
 
-# Placar
-
+# Variáveis do Placar
 countrobo = 0
 counthumano = 0
 
 while True:
     opcoes = ["papel", "tesoura", "pedra"] # Opções: tesoura, pedra e papel
-    jogador = input("O que você escolhe, pedra, papel, tesoura ou sair?\n").lower() # Opção do joogador
+    jogador = input("O que você escolhe, pedra, papel, tesoura ou sair?\n").lower() # Opção do jogador
     robo = random.choice(opcoes) # Escolha aleatória do robô 
 
     if jogador in opcoes:
